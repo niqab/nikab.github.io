@@ -1,221 +1,116 @@
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/style.css">
-    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
-    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
-    <title>NIKKAB</title>
-    <meta name="description" content="Produk UMKM yntuk Muslim buatan sendiri, berkualitas dan harga terjangkau.">
-    <meta name="keywords" content="Niqab, Hijab, Nikab, Nikkab, Kerudung, Jilbab, Khimar, Shari, Islam, Muslim, COD">
-    <style>
-body {
- background: #f5f5f5;
- color: #442C2E;
-}
-.theme1 {
- color: #442C2E! important;
- background: #FEDBD0;
- margin: 0 auto;
-}
-.theme2 {
- border-color: #442C2E;
-}
-.mdc-tab-indicator__content--underline {
-    bakcground: #442C2E;
-}
-.me {
- margin: 0;
-}
-.mybutton {
-color: #442C2E! important;
-}
-.margin20 {
- margin-top: 20px;
-}
-.mdc-top-app-bar {
-    color: white;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
-    width: 100%;
-}
-.logo {
-    justify-content: space-between;
-    box-sizing: border-box;
-    width: 100%;
-    background: #f5f5f5;
-    color: #442C2E! important;
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<style>
+html {
     background: #FEDBD0;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 80px;
 }
-.logo-title {
-    font-family: 'Montez', cursive;
-    font-size: 3.5rem;
-}
-.inner logo {
- border-radius: 50px 0px 50px 0px;
-}
-.text-center {
-  text-align: center;
+body {
+    display: block;
+    margin: 0px! important;
+    padding: 0px! important;
+    background: #FEDBD0;
 }
 .content {
- margin: 20px 20px;
+ background: #f5f5f5;
+ width: 100%;
+ margin: 0 auto;
+ padding: 10px;
+ border-top-left-radius: 10%;
 }
 .inner-content {
- border-radius: 30px;
- background: #fff;
+ margin: 20px;
 }
-.list1 {
- padding: 0px 10px;
+.myheader {
+ color: #442C2E! important;
+ background: #FEDBD0;
+ width: 100%;
+ margin: 0 auto;
 }
-.component-section {
- margin: 10px 0px;
+.mymenu {
+ margin: 0 20px;
+ color: #442C2E;
+}
+.mytitle {
+ color: #442C2E;
+}
+.side-nav {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #442C2E;
+}
+.side-nav a {
+    color: #442C2E! important;
 }
 </style>
-  </head>
-  <body class="me">  
+    </head>
+
+    <body>
+
+  <ul id="slide-out" class="side-nav">
+    <li>
+    <div class="user-view">
+      Menu
+    </div>
+    </li>
+    <li><a class="waves-effect" href="#!">Beranda</a></li>
+    <li><a class="waves-effect" href="#!">Produk</a></li>
+    
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Informasi</a></li>
+    <li><a class="waves-effect" href="#!">Tentang</a></li>
+    <li><a class="waves-effect" href="#!">Kontak</a></li>
+    <li><a class="waves-effect" href="#!">Privacy Policy</a></li>
+    <li><a class="waves-effect" href="#!">Disclaimers</a></li>
+  </ul>
   
-<div class="mdc-top-app-bar logo">
-<h1 class="text-center logo-title">Nikkab</h1>
-<button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button mybutton" aria-label="Open navigation menu">notes</button>
+  <div class="myheader">
+   <h1 class="center-align mytitle">Nikkab</h1>
+   <a href="#" data-activates="slide-out" class="button-collapse mymenu"><i class="material-icons">menu</i></a>
+  </div>
+  
+ <div class="content">
+  <div class="inner-content">
+    <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="http://archives.materializecss.com/0.100.2/images/office.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Aisha By Nikkab<span class="right">Rp. 41.000</span></span>
+    </div>
+    <div class="card-tabs">
+      <ul class="tabs tabs-fixed-width">
+        <li class="tab"><a class="active" href="#test4">Informasi</a></li>
+        <li class="tab"><a href="#test5">Ukuran</a></li>
+        <li class="tab"><a href="#test6">Perawatan</a></li>
+      </ul>
+    </div>
+    <div class="card-content grey lighten-4">
+      <div id="test4"><p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p></div>
+      <div id="test5">All size</div>
+      <div id="test6">Perawatan</div>
+    </div>
+  </div>
+ </div>
 </div>
 
-<main>
-<div class="content">
-
-          <!-- List Products -->
-          <section class="component-section list-section inner-content">
-            <div class="component-wrapper list1">
-              <ul class="mdc-list mdc-list--two-line mdc-list--avatar-list">
-                <li class="mdc-list-item" tabindex="0">
-                  <span class="mdc-list-item__ripple"></span>
-                  <span class="mdc-list-item__graphic material-icons" aria-hidden="true">checkroom</span>
-                  <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">Niqab Bandana</span>
-                    <span class="mdc-list-item__secondary-text">Body 2</span>
-                  </span>
-                </li>
-                <hr class="mdc-list-divider">
-                <li class="mdc-list-item">
-                  <span class="mdc-list-item__ripple"></span>
-                  <span class="mdc-list-item__graphic material-icons" aria-hidden="true">checkroom</span>
-                  <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">Cadar</span>
-                    <span class="mdc-list-item__secondary-text">Body 2</span>
-                  </span>
-                </li>
-                <hr class="mdc-list-divider">
-                <li class="mdc-list-item">
-                  <span class="mdc-list-item__ripple"></span>
-                  <span class="mdc-list-item__graphic material-icons" aria-hidden="true">checkroom</span>
-                  <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">Khimar Tangan</span>
-                    <span class="mdc-list-item__secondary-text">Body 2</span>
-                  </span>
-                </li>
-                <hr class="mdc-list-divider">
-                <li class="mdc-list-item">
-                  <span class="mdc-list-item__ripple"></span>
-                  <span class="mdc-list-item__graphic material-icons" aria-hidden="true">checkroom</span>
-                  <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">Bawahan</span>
-                    <span class="mdc-list-item__secondary-text">Body 2</span>
-                  </span>
-                </li>
-              </ul>
-            </div>
-          </section>
-
-          <!-- Care -->
-          <section class="component-section list-section inner-content">
-            <div class="component-wrapper list1">
-              <ul class="mdc-list mdc-list--two-line mdc-list--avatar-list">
-                <li class="mdc-list-item" tabindex="0">
-                  <span class="mdc-list-item__ripple"></span>
-                  <span class="mdc-list-item__graphic material-icons" aria-hidden="true">phone</span>
-                  <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">Telepon</span>
-                    <span class="mdc-list-item__secondary-text">(021) 747-8191*</span>
-                  </span>
-                </li>
-                <hr class="mdc-list-divider">
-                <li class="mdc-list-item">
-                  <span class="mdc-list-item__ripple"></span>
-                  <span class="mdc-list-item__graphic material-icons" aria-hidden="true">chat_bubble_outline</span>
-                  <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">WhatsApp / SMS</span>
-                    <span class="mdc-list-item__secondary-text">0851-589*-****</span>
-                  </span>
-                </li>
-                <hr class="mdc-list-divider">
-                <li class="mdc-list-item">
-                  <span class="mdc-list-item__ripple"></span>
-                  <span class="mdc-list-item__graphic material-icons" aria-hidden="true">email</span>
-                  <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">Email</span>
-                    <span class="mdc-list-item__secondary-text">nikkab@outlook.co.id</span>
-                  </span>
-                </li>
-                <hr class="mdc-list-divider">
-                <li class="mdc-list-item">
-                  <span class="mdc-list-item__ripple"></span>
-                  <span class="mdc-list-item__graphic material-icons" aria-hidden="true">place</span>
-                  <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">Lokasi</span>
-                    <span class="mdc-list-item__secondary-text">Jl. SMP Mabad Gg. Damai No. 212B</span>
-                  </span>
-                </li>
-              </ul>
-            </div>
-          </section>
-
-          <!-- Legal -->
-          <section class="component-section list-section inner-content">
-            <div class="component-wrapper list1">
-              <ul class="mdc-list mdc-list--two-line mdc-list--avatar-list">
-                <li class="mdc-list-item" tabindex="0">
-                  <span class="mdc-list-item__ripple"></span>
-                  <span class="mdc-list-item__graphic material-icons" aria-hidden="true">chevron_right</span>
-                  <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">Tentang</span>
-                    <span class="mdc-list-item__secondary-text">Body 2</span>
-                  </span>
-                </li>
-                <hr class="mdc-list-divider">
-                <li class="mdc-list-item">
-                  <span class="mdc-list-item__ripple"></span>
-                  <span class="mdc-list-item__graphic material-icons" aria-hidden="true">chevron_right</span>
-                  <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">Privacy Policy</span>
-                    <span class="mdc-list-item__secondary-text">Body 2</span>
-                  </span>
-                </li>
-                <hr class="mdc-list-divider">
-                <li class="mdc-list-item">
-                  <span class="mdc-list-item__ripple"></span>
-                  <span class="mdc-list-item__graphic material-icons" aria-hidden="true">chevron_right</span>
-                  <span class="mdc-list-item__text">
-                    <span class="mdc-list-item__primary-text">Disclaimer</span>
-                    <span class="mdc-list-item__secondary-text">Body 2</span>
-                  </span>
-                </li>
-              </ul>
-            </div>
-          </section>
-          
-</div>
-</main>
-
-  </body>
-</html>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script>
+        
+  // Initialize collapse button
+  $(".button-collapse").sideNav();
+  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+  //$('.collapsible').collapsible();
+        </script>
+    </body>
+  </html>
