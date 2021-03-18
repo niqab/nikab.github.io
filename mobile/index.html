@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
   <html>
     <head>
       <!--Import Google Icon Font-->
@@ -12,7 +12,7 @@
 .content {
  width: 100%;
  margin: 0 auto;
- padding: 10px;
+ padding: 0px;
 }
 .inner-content {
  margin: 30px;
@@ -36,6 +36,9 @@
 .mytitle {
  color: #442C2E;
 }
+.mycolor {
+ color: #442C2E;
+}
 .side-nav {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -51,10 +54,36 @@
 .brand-logo {
  color: #442C2E! important;
 }
+.waves-effect2 {
+ display: block;
+}
+.mycard {
+ padding: 10px;
+ border-radius: 20px;
+ background: #fff;
+}
+.collection {
+    margin: .1rem 0 0rem 0;
+    border: 0px solid #e0e0e0;
+    border-radius: 0px;
+    overflow: hidden;
+    position: relative;
+}
+.myhelpertitle {
+ margin: 10px 15px;
+ font-weight: bold;
+}
+.collection .collection-item {
+    background-color: transparent! important;
+    line-height: 1.5rem;
+    padding: 10px 10px;
+    margin: 0;
+    border-bottom: 1px dotties #e0e0e0;
+}
 </style>
     </head>
 
-    <body>
+    <body class="mycolor">
   <ul id="slide-out" class="side-nav">
     <li>
     <div class="user-view">
@@ -84,25 +113,17 @@
   
  <div class="content">
   <div class="inner-content">
-    <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="http://archives.materializecss.com/0.100.2/images/office.jpg">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Aisha By Nikkab<span class="right">Rp. 41.000</span></span>
-    </div>
-    <div class="card-tabs">
-      <ul class="tabs tabs-fixed-width">
-        <li class="tab"><a class="active" href="#test4">Informasi</a></li>
-        <li class="tab"><a href="#test5">Ukuran</a></li>
-        <li class="tab"><a href="#test6">Perawatan</a></li>
+    <div class="card mycard">
+    
+      <ul class="collection with-header z-depth-0">
+        <h6 class="myhelpertitle">Produk</h6>
+        <li class="collection-item waves-effect waves-effect2"><div>Niqab/Cadar<a href="#!" class="secondary-content"><i class="material-icons mycolor">chevron_right</i></a></div></li>
+        <li class="collection-item waves-effect waves-effect2"><div>Khimar<a href="#!" class="secondary-content"><i class="material-icons mycolor">chevron_right</i></a></div></li>
+        <li class="collection-item waves-effect waves-effect2"><div>Set Khimar<a href="#!" class="secondary-content"><i class="material-icons mycolor">chevron_right</i></a></div></li>
+        <li class="collection-item waves-effect waves-effect2"><div>Atasan<a href="#!" class="secondary-content"><i class="material-icons mycolor">chevron_right</i></a></div></li>
+        <li class="collection-item waves-effect waves-effect2"><div>Bawahan<a href="#!" class="secondary-content"><i class="material-icons mycolor">chevron_right</i></a></div></li>
       </ul>
-    </div>
-    <div class="card-content grey lighten-4">
-      <div id="test4"><p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p></div>
-      <div id="test5">All size</div>
-      <div id="test6">Perawatan</div>
-    </div>
+      
   </div>
  </div>
 </div>
