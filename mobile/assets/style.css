@@ -190,3 +190,17 @@ nav .button-collapse {
 .inner-content p {
  margin-left: 30px;
 }
+#materialbox-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(254, 219, 208, 1.0) !important;
+    z-index: 1000;
+    will-change: opacity;
+    opacity: 0.5 !important;
+}
+.border-radius-0 {
+ border-radius: 0px !important;
+}
