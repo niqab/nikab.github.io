@@ -1,5 +1,5 @@
 body {
- background: #f5f5f5;
+ background: #fafafa !important;
 }
 .mycolor, a, .my color a, p, body {
  color: #442C2E! important;
@@ -68,10 +68,6 @@ body {
     overflow: hidden;
     position: relative;
 }
-.myhelpertitle {
- margin: 10px 15px;
- font-weight: bold;
-}
 .collection .collection-item {
     background-color: transparent! important;
     line-height: 1.5rem;
@@ -81,4 +77,30 @@ body {
 }
 .waves-effect.waves-brown .waves-ripple {
       background-color: rgba(254, 219, 208, 1.0);
+}
+.waves-effect2 {
+ display: relative! important;
+}
+.mycard {
+ padding: 10px;
+ border-radius: 20px;
+ background: #fff;
+}
+.modal.bottom-sheet {
+    top: auto;
+    bottom: -100%;
+    margin: 0;
+    width: 100%;
+    max-height: 45%;
+    border-radius: 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    will-change: bottom, opacity;
+}
+.modal-overlay {
+    opacity:0 !important;
+}
+.myhelpertitle {
+ margin: 15px 10px;
+ font-weight: bold;
 }
