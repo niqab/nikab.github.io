@@ -74,7 +74,8 @@ body {
     will-change: bottom, opacity;
 }
 .modal-overlay {
-    opacity:0 !important;
+    background: #feeae6 !important;
+    opacity: 0.5 !important;
 }
 .myhelpertitle {
  margin: 0px 10px;
