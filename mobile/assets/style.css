@@ -204,3 +204,11 @@ nav .button-collapse {
 .border-radius-0 {
  border-radius: 0px !important;
 }
+.btn-floating {
+    color: #442C2E !important;
+    background-color: rgba(254, 219, 208, 1.0) !important;
+}
+.btn-floating i {
+    color: #442C2E !important;
+    background-color: rgba(254, 219, 208, 1.0) !important;
+}
