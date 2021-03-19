@@ -172,3 +172,18 @@ nav .button-collapse {
     border-radius: 18px;
     font-family: 'Rubik', sans-serif;
 }
+.pagination li.active {
+    background-color: rgba(254, 219, 208, 1.0);
+}
+.pagination li.disabled a {
+    cursor: default;
+    color: #999 !important;
+}
+.disabled {
+  color: #999 !important;
+  cursor: not-allowed !important;
+  pointer-events: all !important;
+}
+.disabled a {
+  pointer-events: none;
+}
