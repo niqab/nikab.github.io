@@ -160,3 +160,15 @@ nav .button-collapse {
 .round {
  border-radius: 20px !important;
 }
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #fedbd0 !important;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    cursor: pointer;
+    border-radius: 18px;
+    font-family: 'Rubik', sans-serif;
+}
