@@ -18,7 +18,41 @@
       <!--/Font/CSS Style-->
       
       <script src="https://accounts.google.com/gsi/client" async defer></script>
-      
+      <style>
+nav {
+ height: 70px;
+}
+nav, .nav-wrapper {
+ background: #fedbd0 !important;
+ color: #442C2E! important;
+}
+.myheader {
+ background: #fedbd0 !important;
+ color: #442C2E! important;
+ width: 100%;
+ margin-bottom: 20px;
+}
+.triangle {
+  position: relative;
+  background-color: #fafafa;
+  color: yellow;
+  display: inline-block;
+}
+.triangle::after {
+  content: "";
+  position: absolute;
+  border: 50px solid #fedbd0;
+  height: 0;
+  width: 0;
+  left: -45px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  z-index: 5;
+}
+      </style>
     </head><!--/Head-->
     
    <body class="mycolor"><!--Body-->
@@ -51,14 +85,15 @@
   <div class="myheader"><!--Header-->
    <div class="mymenu"><a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a></div>
   </div><!--/Header-->
-  
+ 
+ <div class="triangle"></div>
  <div class="content"><!--Content-->
   <div class="inner-content"><!--Inner Content-->
     
     <!--Content 1-->
     <div class="card bg-white">
      <h6 class="myhelpertitle">
-      Produk <a href="/mobile/store" class="secondary-content">Lihat semua</a>
+      Produk <a href="mobile/produk" class="secondary-content">Lihat semua</a>
      </h6>
       <ul class="collection with-header z-depth-0 border-0">
         <li class="collection-item waves-effect waves-brown waves-ripple waves-effect2">
