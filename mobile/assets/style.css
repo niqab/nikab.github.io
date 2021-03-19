@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;800;900&display=swap');
 body {
  background: #ffffff !important;
+ font-family: 'Rubik', sans-serif !important;
 }
 .mycolor, a, .my color a, p, body {
  color: #442C2E! important;
