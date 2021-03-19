@@ -19,6 +19,22 @@
       
       <script src="https://accounts.google.com/gsi/client" async defer></script>
 
+<style>
+#materialbox-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(254, 219, 208, 1.0) !important;
+    z-index: 1000;
+    will-change: opacity;
+    opacity: 0.5 !important;
+}
+.border-radius-0 {
+ border-radius: 0px !important;
+}
+</style>
     </head><!--/Head-->
     
    <body class="mycolor"><!--Body-->
@@ -31,30 +47,28 @@
     </li>
     <li><div class="divider"></div></li>
     <li><a class="waves-effect waves-brown waves-ripple" href="/mobile"><i class="material-icons mycolor">roofing</i>Beranda</a></li>
-    <li class="active"><a class="waves-effect waves-brown waves-ripple" href="/mobile/store"><i class="material-icons mycolor">checkroom</i>Produk</a></li>
-    <li><a class="waves-effect waves-brown waves-ripple" href="#!"><i class="material-icons mycolor">receipt_long</i> Katalog</a></li>
-    <li><a class="waves-effect waves-brown waves-ripple" href="#!"><i class="material-icons mycolor">mail_outline</i>Kontak</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/store"><i class="material-icons mycolor">checkroom</i>Produk</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/page/katalog"><i class="material-icons mycolor">receipt_long</i> Katalog</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/page/kontak"><i class="material-icons mycolor">mail_outline</i>Kontak</a></li>
     <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/page/help"><i class="material-icons mycolor">help</i>Halaman Bantuan</a></li>
-    <li><a class="waves-effect waves-brown waves-ripple" href="#!"><i class="material-icons mycolor">history_edu</i>Berita</a></li>
-    <li><a class="waves-effect waves-brown waves-ripple" href="#!"> <i class="material-icons mycolor">approval</i>Merk Dagang</a></li>
-    <li><a class="waves-effect waves-brown waves-ripple" href="#!"><i class="material-icons mycolor">gpp_good</i>Privacy</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/legal/merk"> <i class="material-icons mycolor">approval</i>Merk Dagang</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/legal/privacy"><i class="material-icons mycolor">gpp_good</i>Privacy</a></li>
     <li><div class="divider"></div></li>
     <p><small><a class="waves-effect waves-brown waves-ripple">© NIKKAB - IUMK/NIB Nomor 1222000300429</a></small></p>
   </ul><!--/SideNav-->
   
   <nav class="nav z-depth-0">
     <div class="nav-wrapper">
-      <a href="/mobile" class="brand-logo left">Nikkab</a>
+      <span class="brand-logo left"><a href="/mobile"><i class="material-icons">keyboard_backspace</i>Produk</a></span>
       <a href="#" data-activates="mobile-demo" class="button-collapse mobile-menu right"><i class="material-icons right">menu</i>Menu</a>
       <ul class="right hide-on-med-and-down">
-    <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/store">Produk</a></li>
-    <li><a class="waves-effect waves-brown waves-ripple" href="#!">Katalog</a></li>
-    <li><a class="waves-effect waves-brown waves-ripple" href="#!">Kontak</a></li>
-    <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/page/help">Faq</a></li>
-    <li><a class="waves-effect waves-brown waves-ripple" href="#!">Berita</a></li>
-    <li><a class="waves-effect waves-brown waves-ripple" href="#!">Merk Dagang</a></li>
-    <li><a class="waves-effect waves-brown waves-ripple" href="#!">Privacy</a></li>
-    <li><div class="divider"></div></li>
+       <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/store">Produk</a></li>
+       <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/page/katalog">Katalog</a></li>
+       <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/page/kontak">Kontak</a></li>
+       <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/page/help">Faq</a></li>
+       <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/legal/merk">Merk Dagang</a></li>
+      <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/legal/privacy">Privacy</a></li>
+      <li><div class="divider"></div></li>
       </ul>
     </div>
   </nav><!--/Nav-->
@@ -62,66 +76,62 @@
  <div class="triangle"></div>
  <div class="content"><!--Content-->
   <div class="inner-content"><!--Inner Content-->
-    
-<div class="row"><!--Row--> 
-<div class="col s6 m4">
- <div class="card">
-  <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="https://s0.bukalapak.com/img/5275674392/large/cadar_bandana.jpg">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-      <p><a href="#">This is a link</a></p>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-    </div>
-  </div>
- </div>
-</div>
-      
-<div class="col s6 m4">
- <div class="card">
-  <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="https://s0.bukalapak.com/img/5275674392/large/cadar_bandana.jpg">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-      <p><a href="#">This is a link</a></p>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-    </div>
-  </div>
- </div>
-</div>
 
-<div class="col s6 m4">
- <div class="card">
-  <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="https://s0.bukalapak.com/img/5275674392/large/cadar_bandana.jpg">
+<div class="row"><!--Row--> 
+
+    <div class="col s6 m4">
+      <div class="card border-0 border-radius-0 z-depth-0">
+        <div class="card-image">
+          <img class="materialboxed" src="https://s0.bukalapak.com/img/5275674392/large/cadar_bandana.jpg">
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">shopping_cart</i></a>
+        </div>
+        <div class="card-content">
+         <span class="card-title">Product Title</span>
+        </div>
+      </div>
     </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-      <p><a href="#">This is a link</a></p>
+         
+    <div class="col s6 m4">
+      <div class="card border-radius-0 z-depth-0">
+        <div class="card-image">
+          <img class="materialboxed" src="https://s0.bukalapak.com/img/5275674392/large/cadar_bandana.jpg">
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">shopping_cart</i></a>
+        </div>
+        <div class="card-content">
+         <span class="card-title">Product Title</span>
+        </div>
+      </div>
     </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+
+    <div class="col s6 m4">
+      <div class="card border-radius-0 z-depth-0">
+        <div class="card-image">
+          <img class="materialboxed" src="https://s0.bukalapak.com/img/5275674392/large/cadar_bandana.jpg">
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">shopping_cart</i></a>
+        </div>
+        <div class="card-content">
+         <span class="card-title">Product Title</span>
+        </div>
+      </div>
     </div>
-  </div>
- </div>
-</div>
+
+    <div class="col s6 m4">
+      <div class="card border-radius-0 z-depth-0">
+        <div class="card-image">
+          <img class="materialboxed" src="https://s0.bukalapak.com/img/5275674392/large/cadar_bandana.jpg">
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">shopping_cart</i></a>
+        </div>
+        <div class="card-content">
+         <span class="card-title">Product Title</span>
+        </div>
+      </div>
+    </div>
+
 </div><!--/Row-->
-  
+
  </div><!--/Inner Content-->
 </div><!--/Content-->
-
+  
   <!--Javascripts-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>      
