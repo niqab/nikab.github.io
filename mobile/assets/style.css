@@ -187,3 +187,6 @@ nav .button-collapse {
 .disabled a {
   pointer-events: none;
 }
+.inner-content p {
+ margin-left: 30px;
+}
