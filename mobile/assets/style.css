@@ -1,7 +1,9 @@
 body {
  background: #f5f5f5;
 }
-a {color: #442C2E;}
+.mycolor, a, .my color a, p, body {
+ color: #442C2E! important;
+}
 .page-title {
        text-align: center;
        margin: 40px;
