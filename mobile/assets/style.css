@@ -1,5 +1,5 @@
 body {
- background: #fafafa !important;
+ background: #ffffff !important;
 }
 .mycolor, a, .my color a, p, body {
  color: #442C2E! important;
@@ -90,4 +90,70 @@ body {
 }
 .border-0 {
     border: 0px solid #e0e0e0 !important;
+}
+.nav {
+ height: 65px;
+ margin-bottom: 15px;
+}
+nav, .nav-wrapper {
+ background: #fedbd0 !important;
+ color: #442C2E! important;
+}
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.4rem !important;
+    padding: 0;
+    margin-left: 15px;
+}
+nav .button-collapse {
+    float: left;
+    position: relative;
+    z-index: 1;
+    height: 56px;
+    margin: 0;
+}
+.triangle {
+  position: relative;
+  background-color: #ffffff;
+  display: inline-block;
+}
+.triangle::after {
+  content: "";
+  position: absolute;
+  border: 40px solid #fedbd0;
+  height: 0;
+  width: 0;
+  left: -45px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+}
+.bg-fa {
+ background: #fafafa;
+}
+.side-nav li.active {
+    background-color: rgba(254, 219, 208, 1.0) !important;
+}
+.mobile-menu {
+ margin-right: 15px !important;
+}
+.bg-brown {
+ background: #442C2E;
+ color: #ffffff;
+}
+.bg-brown a, .bg-brown i {
+ color: #ffffff !important;
+}
+.bg-brown ul li {
+ color: #ffffff !important;
+}
+.bg-light {
+ background: #f5f5f5;
+}
+.round {
+ border-radius: 20px !important;
 }
