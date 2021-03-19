@@ -19,6 +19,9 @@
       
       <script src="https://accounts.google.com/gsi/client" async defer></script>
       <style>
+body {
+ background: #ffffff !important;
+}
 nav {
  height: 70px;
 }
@@ -34,7 +37,7 @@ nav, .nav-wrapper {
 }
 .triangle {
   position: relative;
-  background-color: #fafafa;
+  background-color: #ffffff;
   display: inline-block;
 }
 .triangle::after {
@@ -50,6 +53,9 @@ nav, .nav-wrapper {
   border-right-color: transparent;
   border-bottom-color: transparent;
   z-index: 5;
+}
+.bg-fa {
+ background: #fafafa;
 }
       </style>
     </head><!--/Head-->
@@ -90,7 +96,7 @@ nav, .nav-wrapper {
   <div class="inner-content"><!--Inner Content-->
     
     <!--Content 1-->
-    <div class="card bg-white">
+    <div class="card z-depth-0">
      <h6 class="myhelpertitle">
       Produk <a href="mobile/produk" class="secondary-content">Lihat semua</a>
      </h6>
@@ -115,7 +121,7 @@ nav, .nav-wrapper {
   <!--/Content 1-->
       
   <!--Content 2-->
-  <div class="card bg-white">
+  <div class="card z-depth-0">
    <h6 class="myhelpertitle">Mitra</h6>
       <ul class="collection with-header z-depth-0 border-0">
         <li class="collection-item waves-effect waves-brown waves-ripple waves-effect2">
