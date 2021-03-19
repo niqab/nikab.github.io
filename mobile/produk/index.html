@@ -1,121 +1,130 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
   <html>
-    <head>
-      <!--Import Google Icon Font-->
+    <head><!--Head-->
+
+     <!--Meta-->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <title>NIKKAB | Produk</title>
+     <meta name="description" content="Produk UMKM yntuk Muslim buatan sendiri, berkualitas dan harga terjangkau.">
+     <meta name="keywords" content="Niqab, Hijab, Nikab, Nikkab, Kerudung, Jilbab, Khimar, Shari, Islam, Muslim, COD">
+      <meta name="google-site-verification" content="eTWG5TGqLMFMiR6Mjl6uyacCsZ_rsVBrwpuud5ae1UM" />
+     <!--/Meta-->
+
+     <!--Font/CSS Style-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection">
+      <link rel="stylesheet" href="https://niqab.github.io/mobile/assets/style.css">
+      <!--/Font/CSS Style-->
+      
+      <script src="https://accounts.google.com/gsi/client" async defer></script>
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<style>
-.content {
- width: 100%;
- margin: 0 auto;
- padding: 10px;
-}
-.inner-content {
- margin: 30px;
-}
-.myheader {
- color: #442C2E! important;
- background: #FEDBD0;
- width: 100%;
- margin: 0 auto;
- border-bottom-left-radius: 50px;
- height: 80px;
-}
-.mymenu {
- margin: 0px 20px;
- color: #442C2E;
- padding-top: 30px;
-}
-.mymenu a {
- color: #442C2E;
-}
-.mytitle {
- color: #442C2E;
-}
-.side-nav {
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    color: #442C2E;
-}
-.side-nav a {
-    color: #442C2E! important;
-}
-.nav-wrapper {
- background: #FEDBD0! important;
- color: #442C2E! important;
-}
-.brand-logo {
- color: #442C2E! important;
-}
-</style>
-    </head>
+    </head><!--/Head-->
+    
+   <body class="mycolor"><!--Body-->
 
-    <body>
-  <ul id="slide-out" class="side-nav">
+  <ul class="side-nav" id="mobile-demo"><!--SideNav-->
     <li>
     <div class="user-view">
-      Menu
+      <h5>Nikkab</h5>
     </div>
     </li>
-    <li><a class="waves-effect" href="#!">Beranda</a></li>
-    <li><a class="waves-effect" href="#!">Produk</a></li>
-    
     <li><div class="divider"></div></li>
-    <li><a class="subheader">Informasi</a></li>
-    <li><a class="waves-effect" href="#!">Tentang</a></li>
-    <li><a class="waves-effect" href="#!">Kontak</a></li>
-    <li><a class="waves-effect" href="#!">Privacy Policy</a></li>
-    <li><a class="waves-effect" href="#!">Disclaimers</a></li>
-  </ul>
-
-  <nav>
+    <li  class="active"><a class="waves-effect waves-brown waves-ripple" href="/mobile"><i class="material-icons mycolor">roofing</i>Beranda</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/store"><i class="material-icons mycolor">checkroom</i>Produk</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="#!"><i class="material-icons mycolor">receipt_long</i> Katalog</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="#!"><i class="material-icons mycolor">mail_outline</i>Kontak</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/page/help"><i class="material-icons mycolor">help</i>Halaman Bantuan</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="#!"><i class="material-icons mycolor">history_edu</i>Berita</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="#!"> <i class="material-icons mycolor">approval</i>Merk Dagang</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="#!"><i class="material-icons mycolor">gpp_good</i>Privacy</a></li>
+    <li><div class="divider"></div></li>
+    <p><small><a class="waves-effect waves-brown waves-ripple">© NIKKAB - IUMK/NIB Nomor 1222000300429</a></small></p>
+  </ul><!--/SideNav-->
+  
+  <nav class="nav z-depth-0">
     <div class="nav-wrapper">
-      <h1 class="brand-logo center">Nikkab</h1>
-    </div>
-  </nav>
-  
-  <div class="myheader">
-   <div class="mymenu"><a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a></div>
-  </div>
-  
- <div class="content">
-  <div class="inner-content">
-    <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="http://archives.materializecss.com/0.100.2/images/office.jpg">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Aisha By Nikkab<span class="right">Rp. 41.000</span></span>
-    </div>
-    <div class="card-tabs">
-      <ul class="tabs tabs-fixed-width">
-        <li class="tab"><a class="active" href="#test4">Informasi</a></li>
-        <li class="tab"><a href="#test5">Ukuran</a></li>
-        <li class="tab"><a href="#test6">Perawatan</a></li>
+      <a href="/mobile" class="brand-logo left">Nikkab</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse mobile-menu right"><i class="material-icons right">menu</i>Menu</a>
+      <ul class="right hide-on-med-and-down">
+    <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/store">Produk</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="#!">Katalog</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="#!">Kontak</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/page/help">Faq</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="#!">Berita</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="#!">Merk Dagang</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="#!">Privacy</a></li>
+    <li><div class="divider"></div></li>
       </ul>
     </div>
-    <div class="card-content grey lighten-4">
-      <div id="test4"><p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p></div>
-      <div id="test5">All size</div>
-      <div id="test6">Perawatan</div>
+  </nav><!--/Nav-->
+ 
+ <div class="triangle"></div>
+ <div class="content"><!--Content-->
+  <div class="inner-content"><!--Inner Content-->
+    
+<div class="row"><!--Row--> 
+<div class="col s12 m4">
+ <div class="card">
+  <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="https://s0.bukalapak.com/img/5275674392/large/cadar_bandana.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">This is a link</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
+ </div>
+</div>
+      
+<div class="col s12 m4">
+ <div class="card">
+  <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="https://s0.bukalapak.com/img/5275674392/large/cadar_bandana.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">This is a link</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
     </div>
   </div>
  </div>
 </div>
 
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-        <script>
-        
-  // Initialize collapse button
-  $(".button-collapse").sideNav();
-  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
-  //$('.collapsible').collapsible();
-        </script>
-    </body>
-  </html>
+<div class="col s12 m4">
+ <div class="card">
+  <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="https://s0.bukalapak.com/img/5275674392/large/cadar_bandana.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">This is a link</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
+ </div>
+</div>
+</div><!--/Row-->
+  
+ </div><!--/Inner Content-->
+</div><!--/Content-->
+
+  <!--Javascripts-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>      
+  <script src="https://niqab.github.io/mobile/assets/main.js"></script>
+  </body><!--/Body-->
+</html>
