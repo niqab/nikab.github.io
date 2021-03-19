@@ -11,32 +11,28 @@ body {
 .content {
  width: 100%;
  margin: 0 auto;
- padding: 0px;
 }
 .inner-content {
- margin: 15px;
+ margin: 10px;
 }
 .myheader {
  color: #442C2E! important;
- background: #FEDBD0;
  width: 100%;
  margin: 0 auto;
- border-bottom-left-radius: 50px;
- height: 80px;
 }
 .mymenu {
- margin: 0px 20px;
- color: #442C2E;
- padding-top: 30px;
+ margin: 0 8px;
+ color: #442C2E !important;
+ padding: 20px 15px;
 }
 .mymenu a {
- color: #442C2E;
+ color: #442C2E !important;
 }
 .mytitle {
  color: #442C2E;
 }
 .mycolor {
- color: #442C2E;
+ color: #442C2E !important;
 }
 .side-nav {
     border-top-right-radius: 30px;
@@ -47,44 +43,24 @@ body {
     color: #442C2E! important;
 }
 .nav-wrapper {
- background: #FEDBD0! important;
+ background: #fafafa! important;
  color: #442C2E! important;
 }
 .brand-logo {
  color: #442C2E! important;
 }
 .waves-effect2 {
- display: block;
+ display: block !important;
 }
-.mycard {
- padding: 10px;
- border-radius: 20px;
- background: #fff;
-}
-.collection {
-    margin: .1rem 0 0rem 0;
-    border: 0px solid #e0e0e0;
-    border-radius: 0px;
-    overflow: hidden;
-    position: relative;
+.waves-effect.waves-brown .waves-ripple {
+      background-color: rgba(254, 219, 208, 1.0);
 }
 .collection .collection-item {
     background-color: transparent! important;
     line-height: 1.5rem;
     padding: 10px 10px;
     margin: 0;
-    border-bottom: 1px dotties #e0e0e0;
-}
-.waves-effect.waves-brown .waves-ripple {
-      background-color: rgba(254, 219, 208, 1.0);
-}
-.waves-effect2 {
- display: relative! important;
-}
-.mycard {
- padding: 10px;
- border-radius: 20px;
- background: #fff;
+    border-bottom: 1px dotted #e0e0e0;
 }
 .modal.bottom-sheet {
     top: auto;
@@ -101,6 +77,17 @@ body {
     opacity:0 !important;
 }
 .myhelpertitle {
- margin: 15px 10px;
+ margin: 0px 10px;
  font-weight: bold;
+ padding: 20px;
+}
+
+.bg-white {
+ background: #fff;
+}
+.card {
+ border-radius: 20px;
+}
+.border-0 {
+    border: 0px solid #e0e0e0 !important;
 }
