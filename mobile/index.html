@@ -22,18 +22,28 @@
 body {
  background: #ffffff !important;
 }
-nav {
- height: 70px;
+.nav {
+ height: 56px;
+ margin-bottom: 15px;
 }
 nav, .nav-wrapper {
  background: #fedbd0 !important;
  color: #442C2E! important;
 }
-.myheader {
- background: #fedbd0 !important;
- color: #442C2E! important;
- width: 100%;
- margin-bottom: 20px;
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.4rem !important;
+    padding: 0;
+    margin-left: 15px;
+}
+nav .button-collapse {
+    float: left;
+    position: relative;
+    z-index: 1;
+    height: 56px;
+    margin: 0;
 }
 .triangle {
   position: relative;
@@ -52,10 +62,12 @@ nav, .nav-wrapper {
   margin: auto;
   border-right-color: transparent;
   border-bottom-color: transparent;
-  z-index: 5;
 }
 .bg-fa {
  background: #fafafa;
+}
+.side-nav li.active {
+    background-color: rgba(254, 219, 208, 1.0) !important;
 }
       </style>
     </head><!--/Head-->
@@ -65,12 +77,12 @@ nav, .nav-wrapper {
   <ul id="slide-out" class="side-nav"><!--SideNav-->
     <li>
     <div class="user-view">
-      <h5>Assalamu'alaikum.</h5>
+      <h5>Nikkab</h5>
     </div>
     </li>
     <li><div class="divider"></div></li>
     <li  class="active"><a class="waves-effect waves-brown waves-ripple" href="/mobile"><i class="material-icons mycolor">roofing</i>Beranda</a></li>
-    <li><a class="waves-effect waves-brown waves-ripple" href="/store"><i class="material-icons mycolor">checkroom</i>Produk</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/store"><i class="material-icons mycolor">checkroom</i>Produk</a></li>
     <li><a class="waves-effect waves-brown waves-ripple" href="#!"><i class="material-icons mycolor">receipt_long</i> Katalog</a></li>
     <li><a class="waves-effect waves-brown waves-ripple" href="#!"><i class="material-icons mycolor">mail_outline</i>Kontak</a></li>
     <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/page/help"><i class="material-icons mycolor">help</i>Halaman Bantuan</a></li>
@@ -81,15 +93,14 @@ nav, .nav-wrapper {
     <p><small><a class="waves-effect waves-brown waves-ripple">© NIKKAB - IUMK/NIB Nomor 1222000300429</a></small></p>
   </ul><!--/SideNav-->
 
-  <nav class="z-depth-0"><!--Nav-->
+  <nav class="z-depth-0 nav"><!--Nav-->
     <div class="nav-wrapper">
-      <h1 class="brand-logo center">Nikkab</h1>
+      <a href="#!" class="brand-logo left">Nikkab</a>
+      <ul class="right icon-nav">
+        <li><a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons right">menu</i>Menu</a></li>
+      </ul>
     </div>
-  </nav><!--/Nav-->
-  
-  <div class="myheader"><!--Header-->
-   <div class="mymenu"><a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a></div>
-  </div><!--/Header-->
+  </nav><!--Nav-->
  
  <div class="triangle"></div>
  <div class="content"><!--Content-->
