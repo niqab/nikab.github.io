@@ -1,30 +1,68 @@
 <!DOCTYPE html>
   <html>
-    <head>
-      <title>NIKKAB | Bantuan</title>
+    <head><!--Head-->
+
+     <!--Meta-->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <title>NIKKAB | FAQ</title>
+     <meta name="description" content="Produk UMKM yntuk Muslim buatan sendiri, berkualitas dan harga terjangkau.">
+     <meta name="keywords" content="Niqab, Hijab, Nikab, Nikkab, Kerudung, Jilbab, Khimar, Shari, Islam, Muslim, COD">
+      <meta name="google-site-verification" content="eTWG5TGqLMFMiR6Mjl6uyacCsZ_rsVBrwpuud5ae1UM" />
+     <!--/Meta-->
+
+     <!--Font/CSS Style-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection">
       <link rel="stylesheet" href="https://niqab.github.io/mobile/assets/style.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
-
-    <body class="mycolor">
-
-  <nav>
-    <div class="nav-wrapper">
-      <a href="/mobile" class="brand-logo left" style="margin-left: 15px;"><i class="material-icons">keyboard_backspace</i></a><br/>
-    </div>
-  </nav>
-  
- <div class="content">
-  <div class="inner-content">
-    <h4 class="page-title mycolor">
-      Halaman Bantuan
-    </h4>
+      <!--/Font/CSS Style-->
+      
+      <script src="https://accounts.google.com/gsi/client" async defer></script>
+    </head><!--/Head-->
     
-    <div class="card mycard">
-     <h6 class="myhelpertitle">Knowledge base</h6>
-  <ul class="collapsible z-depth-0" data-collapsible="accordion">
+   <body class="mycolor"><!--Body-->
+
+  <ul class="side-nav" id="mobile-demo"><!--SideNav-->
+    <li>
+    <div class="user-view">
+      <h5>Nikkab</h5>
+    </div>
+    </li>
+    <li><div class="divider"></div></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="/mobile"><i class="material-icons mycolor">roofing</i>Beranda</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/store"><i class="material-icons mycolor">checkroom</i>Produk</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="#!"><i class="material-icons mycolor">receipt_long</i> Katalog</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="#!"><i class="material-icons mycolor">mail_outline</i>Kontak</a></li>
+    <li class="active"><a class="waves-effect waves-brown waves-ripple" href="/mobile/page/help"><i class="material-icons mycolor">help</i>Halaman Bantuan</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="#!"><i class="material-icons mycolor">history_edu</i>Berita</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="#!"> <i class="material-icons mycolor">approval</i>Merk Dagang</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="#!"><i class="material-icons mycolor">gpp_good</i>Privacy</a></li>
+    <li><div class="divider"></div></li>
+    <p><small><a class="waves-effect waves-brown waves-ripple">© NIKKAB - IUMK/NIB Nomor 1222000300429</a></small></p>
+  </ul><!--/SideNav-->
+  
+  <nav class="nav z-depth-0">
+    <div class="nav-wrapper">
+      <span class="brand-logo left"><a href="/mobile"><i class="material-icons">keyboard_backspace</i></a>Faq</span>
+      <a href="#" data-activates="mobile-demo" class="button-collapse mobile-menu right"><i class="material-icons right">menu</i>Menu</a>
+      <ul class="right hide-on-med-and-down">
+    <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/store">Produk</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="#!">Katalog</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="#!">Kontak</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="/mobile/page/help">Faq</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="#!">Berita</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="#!">Merk Dagang</a></li>
+    <li><a class="waves-effect waves-brown waves-ripple" href="#!">Privacy</a></li>
+    <li><div class="divider"></div></li>
+      </ul>
+    </div>
+  </nav><!--/Nav-->
+ 
+ <div class="triangle"></div>
+ <div class="content"><!--Content-->
+  <div class="inner-content"><!--Inner Content-->
+    
+  <ul class="collapsible z-depth-0 border-0" data-collapsible="accordion">
     <li>
       <div class="collapsible-header waves-effect waves-brown waves-ripple waves-effect2"><i class="material-icons">help_outline</i>Cara belanja</div>
       <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
@@ -47,17 +85,15 @@
     </li>
   </ul>
 
-  </div>
-
-  <div class="card mycard">
+  <div class="card z-depth-0 border-0">
      <h6 class="myhelpertitle">Tidak menemukan yang dicari?</h6>
      <div class="card-action">
       <a href="#kontak" class="waves-effect modal-trigger">Tanya kami</a>
      </div>
   </div>
   
- </div>
-</div>
+ </div><!--/Inner Content-->
+</div><!--/Content-->
 
   <!-- Modal Kontak -->
   <div id="kontak" class="modal bottom-sheet">
@@ -69,10 +105,10 @@
       </div>
     </div>
   </div>
-      
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-      <script src="https://niqab.github.io/mobile/assets/main.js"></script>
-    </body>
-  </html>
+  
+  <!--Javascripts-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>      
+  <script src="https://niqab.github.io/mobile/assets/main.js"></script>
+  </body><!--/Body-->
+</html>
