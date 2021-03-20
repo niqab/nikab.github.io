@@ -224,3 +224,20 @@ nav .button-collapse {
     border-radius: 0 !important;
     text-align: center;
 }
+.card .card-title {
+    font-size: 13px;
+    font-weight: 600;
+}
+.card .card-content {
+    display: block;
+    line-height: 0px !important;
+    margin-bottom: 20px !important;
+}
+.card .card-content {
+    padding: 8px 2px;
+    border-radius: 0 0 2px 2px;
+}
+span.card-price {
+    font-size: 11px;
+    font-weight: 600;
+}
