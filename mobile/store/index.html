@@ -18,23 +18,7 @@
       <!--/Font/CSS Style-->
       
       <script src="https://accounts.google.com/gsi/client" async defer></script>
-
-<style>
-#materialbox-overlay {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(254, 219, 208, 1.0) !important;
-    z-index: 1000;
-    will-change: opacity;
-    opacity: 0.5 !important;
-}
-.border-radius-0 {
- border-radius: 0px !important;
-}
-</style>
+      
     </head><!--/Head-->
     
    <body class="mycolor"><!--Body-->
@@ -83,7 +67,7 @@
       <div class="card border-0 border-radius-0 z-depth-0">
         <div class="card-image">
           <img class="materialboxed" src="https://s0.bukalapak.com/img/5275674392/large/cadar_bandana.jpg">
-          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">shopping_cart</i></a>
+          <a href="#p1" class="btn-floating halfway-fab waves-effect waves-light modal-trigger"><i class="material-icons">shopping_cart</i></a>
         </div>
         <div class="card-content">
          <span class="card-title">Product Title</span>
@@ -95,7 +79,7 @@
       <div class="card border-radius-0 z-depth-0">
         <div class="card-image">
           <img class="materialboxed" src="https://s0.bukalapak.com/img/5275674392/large/cadar_bandana.jpg">
-          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">shopping_cart</i></a>
+          <a class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">shopping_cart</i></a>
         </div>
         <div class="card-content">
          <span class="card-title">Product Title</span>
@@ -107,7 +91,7 @@
       <div class="card border-radius-0 z-depth-0">
         <div class="card-image">
           <img class="materialboxed" src="https://s0.bukalapak.com/img/5275674392/large/cadar_bandana.jpg">
-          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">shopping_cart</i></a>
+          <a class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">shopping_cart</i></a>
         </div>
         <div class="card-content">
          <span class="card-title">Product Title</span>
@@ -119,7 +103,7 @@
       <div class="card border-radius-0 z-depth-0">
         <div class="card-image">
           <img class="materialboxed" src="https://s0.bukalapak.com/img/5275674392/large/cadar_bandana.jpg">
-          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">shopping_cart</i></a>
+          <a class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">shopping_cart</i></a>
         </div>
         <div class="card-content">
          <span class="card-title">Product Title</span>
@@ -131,6 +115,35 @@
 
  </div><!--/Inner Content-->
 </div><!--/Content-->
+
+  <!-- Produk 1 -->
+  <div id="p1" class="modal bottom-sheet border-radius-0">
+    <div class="modal-content">
+      <h5>Product Title 1</h5>
+      <p>Rp. 39.500</p>
+      
+  <ul class="collapsible border-0 z-depth-0" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">expand_more</i>Selengkapnya</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+  </ul>
+  
+  <h6>Ukuran</h6>
+  <div class="chip">
+    All Size
+  </div>
+  <hr/>
+  <h6>Warna</h6>
+  <div class="chip">
+    Hitam
+  </div>
+  <hr/>
+    </div>
+    <div class="modal-footer center">
+      <a class="center waves-effect waves-light btn">Beli sekarang</a>
+    </div>
+  </div>
   
   <!--Javascripts-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
