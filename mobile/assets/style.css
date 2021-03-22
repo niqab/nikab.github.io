@@ -247,3 +247,6 @@ span.card-price {
     margin: .82rem 0 .656rem 0;
     font-weight: 600;
 }
+.subheader {
+    padding: 0 32px;
+}
